@@ -1,0 +1,70 @@
+{
+  "name": "flavioheleno/project-skel",
+  "description": "Project Skeleton Repository ",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Flavio Heleno",
+      "email": "flaviohbatista@gmail.com",
+      "homepage": "https://flavioheleno.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FlavioHeleno\\ProjectSkel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FlavioHeleno\\ProjectSkel\\Test\\": "tests"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "composer-runtime-api": "*",
+    "akrabat/ip-address-middleware": "^2.1",
+    "doctrine/migrations": "^3.5",
+    "doctrine/orm": "^2.14",
+    "flavioheleno/interim": "^0.1",
+    "flavioheleno/scale": "^0.2",
+    "hashids/hashids": "^5.0",
+    "league/fractal": "^0.20.1",
+    "mezzio/mezzio-session": "^1.12",
+    "mezzio/mezzio-session-ext": "^1.16",
+    "middlewares/access-log": "^2.1",
+    "middlewares/minifier": "^2.0",
+    "middlewares/uuid": "^2.0",
+    "monolog/monolog": "^3.3",
+    "nyholm/psr7": "^1.5",
+    "nyholm/psr7-server": "^1.0",
+    "php-di/php-di": "^7.0",
+    "psr/cache": "^3.0",
+    "psr/container": "^2.0",
+    "psr/http-factory": "^1.0",
+    "psr/http-message": "^1.0",
+    "psr/log": "^3.0",
+    "slim/http-cache": "^1.1",
+    "slim/slim": "^4.11",
+    "slim/twig-view": "^3.3",
+    "symfony/cache": "^6.2",
+    "symfony/console": "^6.2",
+    "teapot/status-code": "^2.0",
+    "twig/twig": "^3.5",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "require-dev": {
+    "psy/psysh": "^0.11.14",
+    "php-parallel-lint/php-parallel-lint": "^1.3",
+    "phpstan/phpstan": "^1.10",
+    "roave/security-advisories": "dev-latest"
+  }
+}
